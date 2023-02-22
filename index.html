@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="shortcut icon" href="Styles/icons8-círculo-rgb-2-96.png" type="image/x-icon">
+    <title>Guess the color!</title>
+</head>
+<body>
+    <div class="container header">
+        <h1>Can you <br><span id="color-display">RGB(0, 0, 0)</span><br> guess the color?</h1>
+    </div>
+    <div class="container">
+        <div id="options">
+        <button id="start-again">New colors</button>
+        <button>Try again</button>
+        <div class="difficulty">
+            <button class="difficulty-button easy">Easy</button>
+            <button class="difficulty-button hard">Hard</button>
+        </div>
+        </div>
+    </div>
+    <div class="container" id="squares-body">
+        <div id="squares">
+            <div class="square 1"></div>
+            <div class="square 2"></div>
+            <div class="square 3"></div>
+            <div class="square 4"></div>
+            <div class="square 5"></div>
+            <div class="square 6"></div>
+        </div>
+    </div>
+</body>
+<script src="game.js"></script>
+</html>
+
+<!-- Developed by Gabriel A. -->

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;500&display=swap');
+
+:root {
+  --the-color: #77add9;
+  
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Noto sans', sans-serif;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.header {
+  text-align: center;
+  background-color: var(--the-color);
+  color: white;
+  justify-content: center;
+}
+
+h1 {
+  line-height: 55px;
+  
+}
+
+#color-display {
+  font-size: 1.7em;
+  
+}
+
+#options {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  transition: background 300ms;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  color: var(--the-color);
+  font-weight: 100;
+  cursor: pointer;
+  padding: 3px 3px;
+}
+
+button:hover {
+  background: var(--the-color);
+  color: white;
+}
+
+#squares-body {
+  height: 100%;
+  background-color: #212121;
+  
+}
+
+#squares {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 800px;
+  height: 500px;
+  margin-top: 30px;
+}
+
+.square {
+  transition: 350ms;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: none;
+  border: 1px solid rgba(128, 128, 128, 0.222);
+  cursor: pointer;
+}
+
+.choosen {
+  background-color: var(--the-color);
+  
+}
+
+/* Developed by Gabriel A. */
