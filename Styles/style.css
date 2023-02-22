@@ -129,4 +129,41 @@ button:hover {
   }
 }
 
+@media (max-width: 650px) {
+  body {
+    overflow-y: visible;
+  }
+
+  #options {
+    width: 75%;
+    gap: 20px
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    overflow-y: visible;
+    height: 100vh;
+  }
+
+  #options {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .square {
+    width: 150px;
+
+  }
+
+  #color-display {
+    font-size: 1.5em;
+  }
+
+  .got-it::after {
+    width:  150px;
+
+  }
+}
+
 /* Developed by Gabriel A. */
